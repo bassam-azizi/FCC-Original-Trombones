@@ -32,8 +32,6 @@ nav {
   width: 299px;
   height: 34px;
 }
-/* .navigation {
-} */
 .navigation li {
   display: inline-block;
   list-style: none;
@@ -41,16 +39,16 @@ nav {
 }
 
 /* HERO SECTION */
+/* .heroSection {
+  position: sticky;
+} */
 #heroImg {
   max-width: 1440px;
-  position: absolute;
-  /* top: 149px; */
 }
 header {
   position: absolute;
   top: 262px;
   right: 170px;
-  /* top: 100px; */
 }
 header h1 {
   color: #333;
@@ -71,8 +69,6 @@ header p {
 }
 header .cta {
   margin-top: 58px;
-  /* width: 678px;
-  height: 66px; */
 }
 #email {
   width: 370px;
@@ -91,4 +87,29 @@ header .cta {
   background-color: #2f80ed;
   color: white;
   margin-left: -10px;
+}
+
+/* FEATURES SECTION */
+.features {
+  /* width: 92%; */
+  margin: 182px 90px;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.feature {
+  width: 289px;
+  text-align: center;
+  padding: 20px;
+  /* margin: 10px 64px; */
+}
+.feature h3 {
+  padding: 40px 40px 20px;
+  color: #333333;
+}
+.feature p {
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
 }
