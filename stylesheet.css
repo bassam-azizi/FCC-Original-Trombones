@@ -13,14 +13,15 @@ html {
   font-size: 16px;
 }
 
+/* Elements style  */
+
 #fullPage {
   max-width: 1440px;
   margin: 0 auto;
 }
 
+/* NAVIGATION  */
 nav {
-  /* width: 100%; */
-  /* height: 149px; */
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -38,6 +39,8 @@ nav {
   list-style: none;
   margin: 0 50px;
 }
+
+/* HERO SECTION */
 #heroImg {
   max-width: 1440px;
   position: absolute;
