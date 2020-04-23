@@ -32,10 +32,18 @@ nav {
   width: 299px;
   height: 34px;
 }
+.navigation {
+  margin-right: 170px;
+}
 .navigation li {
   display: inline-block;
   list-style: none;
-  margin: 0 50px;
+  margin: 0 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  transform: scaleY(0.96);
 }
 
 /* HERO SECTION */
@@ -92,7 +100,7 @@ header .cta {
 /* FEATURES SECTION */
 .features {
   /* width: 92%; */
-  margin: 182px 90px;
+  margin: 150px 90px;
   display: flex;
   flex-wrap: wrap;
   /* align-items: center; */
