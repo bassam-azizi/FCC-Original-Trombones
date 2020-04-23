@@ -121,3 +121,23 @@ header .cta {
   line-height: 150%;
   text-align: center;
 }
+
+/* TROMBONE VIDEO */
+.videoSection {
+  width: 1007px;
+  height: 530px;
+  margin: 0 auto;
+}
+.videoWrapper {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.videoWrapper iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
