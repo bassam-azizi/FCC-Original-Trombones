@@ -179,10 +179,18 @@ header .cta {
 }
 .pDeck {
   text-align: center;
-  width: 336px;
-  height: 556px;
-  border: 1px solid #2f80ed;
+  width: 335px;
+  height: 555px;
+  border: 1px solid #2f80ed70;
   border-radius: 10px;
+  background: #e2e2e225;
+  /* opacity: 0.8; */
+}
+.pDeck:hover {
+  width: 338px;
+  height: 558px;
+  background: #fff;
+  border-width: 2px;
 }
 .pDeck h4 {
   font-size: 22px;
@@ -233,9 +241,14 @@ header .cta {
   color: white;
   background-color: #2f80ed;
   border-radius: 5px;
-  width: 161px;
-  height: 44px;
+  width: 160px;
+  height: 43px;
   margin-top: 34px;
+}
+.pDeck button:hover {
+  cursor: pointer;
+  width: 163px;
+  height: 45px;
 }
 
 /* FOOTER SECTION */
