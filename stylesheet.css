@@ -45,6 +45,12 @@ nav {
   line-height: 19px;
   transform: scaleY(0.96);
 }
+.navigation li a {
+  outline: none;
+  text-decoration: none;
+  color: #000;
+  padding: 2px 1px;
+}
 
 /* HERO SECTION */
 /* .heroSection {
@@ -140,4 +146,131 @@ header .cta {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+/* TROMBONE IMAGE */
+.tromboneImage {
+  display: block;
+  width: 374px;
+  height: 428px;
+  margin: 20px auto;
+}
+
+/* TROMBONE PLANS TITLE */
+.plans h2 {
+  text-align: center;
+  font-size: 42px;
+  color: #333333;
+  letter-spacing: 0.085em;
+  font-weight: normal;
+  margin: 30px 98px 79px;
+}
+
+/* TROMBONE PLANS */
+.pDecks {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.plan2 {
+  margin-right: 69px;
+  margin-left: 69px;
+}
+.pDeck {
+  text-align: center;
+  width: 336px;
+  height: 556px;
+  border: 1px solid #2f80ed;
+  border-radius: 10px;
+}
+.pDeck h4 {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  background: #fff;
+  width: 243px;
+  margin: 0 auto;
+  padding: 0 2px;
+  position: relative;
+  top: -24px;
+}
+.horizentalLine {
+  margin-top: 72px;
+  background: #2f80ed;
+  height: 1px;
+  width: 100%;
+}
+.pDeck h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 31px;
+  position: relative;
+}
+.pDeck h3:after {
+  content: "";
+  display: block;
+  width: 71px;
+  height: 1px;
+  background: #2f80ed;
+  position: absolute;
+  top: 110%;
+  right: 30%;
+  /* right: 0; */
+}
+.pDeck p {
+  text-align: left;
+  padding: 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 1.7em;
+  margin-left: 7px;
+  margin-top: 44.5px;
+  padding: 30px;
+}
+.pDeck button {
+  color: white;
+  background-color: #2f80ed;
+  border-radius: 5px;
+  width: 161px;
+  height: 44px;
+  margin-top: 34px;
+}
+
+/* FOOTER SECTION */
+.footer {
+  margin-top: 184px;
+  width: 100%;
+  height: 135px;
+  background: linear-gradient(
+    194.07deg,
+    rgba(207, 207, 207, 0.6) 15.4%,
+    rgba(207, 207, 207, 0.83) 15.41%,
+    rgba(205, 205, 205, 0.43) 44.74%,
+    rgba(151, 155, 157, 0.21) 79.58%
+  );
+  mix-blend-mode: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footerNav li {
+  display: inline-block;
+  list-style: none;
+  color: #333333;
+  font-weight: Medium;
+  letter-spacing: 0.085em;
+  font-size: 18px;
+}
+.footerNav p {
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 0.085em;
+  line-height: 19px;
+}
+.footerNav li:nth-of-type(2) {
+  margin-right: 92px;
+  margin-left: 92px;
 }
