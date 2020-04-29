@@ -61,7 +61,7 @@ nav {
   bottom: -40%;
   left: 0%;
 
-  transition: linear 0.3s;
+  transition: linear 0.2s;
 }
 .navAnchor:hover:after {
   width: 100%;
@@ -103,9 +103,13 @@ header .cta {
   border: 2px solid #2f80ed;
   background-color: transparent;
   font-size: 20px;
+  font-weight: 400;
+  color: #4f4f4f;
+  padding: 0 20px;
 }
 #email::placeholder {
   font-size: 16px;
+  /* padding-left: 20px; */
 }
 #btn {
   font-size: 20px;
@@ -113,7 +117,12 @@ header .cta {
   height: 66px;
   background-color: #2f80ed;
   color: white;
-  margin-left: -10px;
+  margin-left: -5px;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: #2f80edcd;
+  color: gold;
 }
 
 /* FEATURES SECTION */
@@ -271,6 +280,8 @@ header .cta {
   cursor: pointer;
   width: 163px;
   height: 45px;
+  background: #2f80eded;
+  color: gold;
 }
 
 /* FOOTER SECTION */
