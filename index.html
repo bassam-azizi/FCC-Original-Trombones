@@ -13,9 +13,15 @@
       <nav>
         <img src="assets/trombones.png" class="logo" alt="logo" />
         <ul class="navigation">
-          <li><a href="#">Features</a></li>
-          <li><a href="#">How it Works</a></li>
-          <li><a href="#">Pricing</a></li>
+          <li>
+            <a class="navAnchor" href="#">Features</a>
+          </li>
+          <li>
+            <a class="navAnchor" href="#">How it Works</a>
+          </li>
+          <li>
+            <a class="navAnchor" href="#">Pricing</a>
+          </li>
         </ul>
       </nav>
       <!-- Hero section menu ___ which take till the upfold finish -->
@@ -91,12 +97,19 @@
 
       <!-- THE TROMBONES VIDEO -->
       <div class="videoSection">
-        <div class="videoWrapper">
-          <iframe
-            src="https://www.youtube.com/embed/y8Yv4pnO7qc?modestbranding=1&showinfo=0&fs=0"
+        <!-- <div class="videoWrapper">
+           <iframe
+          class="videoFrame"
+            src="http://www.youtube.com/embed/y8Yv4pnO7qc?autoplay=1&rel=0"
             frameborder="0"
           ></iframe>
-        </div>
+        </div> -->
+        <img
+          class="videoImg"
+          src="assets/Video.svg"
+          alt="Trombone video"
+          onclick="playVideo()"
+        />
       </div>
 
       <!--  THE TROMBONE IMAGE -->
@@ -173,5 +186,6 @@
       </ul>
       <p>Copyright 2016, Original Trombones</p>
     </div>
+    <script src="js/index.js"></script>
   </body>
 </html>
