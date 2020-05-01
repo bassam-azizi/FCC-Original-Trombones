@@ -136,6 +136,17 @@
 }
 
 /* Between 414px and  - Ipad mini screen */
-@media screen and (max-width: 414px){
-  
+@media screen and (max-width: 414px) {
+  .heroSection header h1 {
+    font-size: 32px;
+    right: 0;
+    left: 5%;
+  }
+  .heroSection header p {
+    line-height: 123%;
+    font-weight: 500;
+  }
+  .navigation {
+    display: none;
+  }
 }
