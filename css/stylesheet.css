@@ -69,6 +69,8 @@ nav {
 }
 #hamburgerMenu {
   display: none;
+  width: 44px;
+  height: 26px;
 }
 
 /* HERO SECTION */
@@ -131,7 +133,7 @@ header p {
 /* FEATURES SECTION */
 .features {
   /* width: 92%; */
-  margin: 150px 90px;
+  margin: 150px auto;
   display: flex;
   flex-wrap: wrap;
   /* align-items: center; */
