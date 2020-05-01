@@ -149,4 +149,9 @@
   .navigation {
     display: none;
   }
+  #hamburgerMenu {
+    display: block;
+    align-self: flex-start;
+    margin: 42px 0 40px 24px;
+  }
 }
