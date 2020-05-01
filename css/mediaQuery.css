@@ -1,0 +1,141 @@
+/* Between 1400px and 1150px */
+@media only screen and (max-width: 1400px) {
+  #heroImg {
+    width: 100%;
+  }
+  .heroSection header {
+    top: 25%;
+    right: 5%;
+  }
+}
+/* Between 1150px and 900px */
+@media screen and (max-width: 1150px) {
+  .navigation {
+    margin-right: 100px;
+  }
+  .heroSection header {
+    top: 20%;
+  }
+  .heroSection header h1 {
+    font-size: 50px;
+  }
+  .heroSection header p {
+    font-size: 26px;
+  }
+  .cta {
+    margin-top: 40px;
+  }
+  #email {
+    width: 270px;
+    height: 57px;
+    font-size: 16px;
+    background: #cfcfcf52;
+  }
+  #btn {
+    width: 190px;
+    height: 57px;
+    font-size: 16px;
+  }
+}
+
+/* Between 850px and 850px; */
+@media screen and (max-width: 900px) {
+  .navigation {
+    margin-right: 30px;
+  }
+  .heroSection header {
+    top: 18%;
+    right: 3%;
+  }
+  .heroSection header p {
+    font-size: 24px;
+  }
+}
+
+/* between 580px and 768px */
+@media screen and (max-width: 850px) {
+  .navigation li {
+    margin: 0 28px;
+  }
+}
+
+/* Ipad mini Breakpoint ---- Between 768px and  */
+@media screen and (max-width: 768px) {
+  nav {
+    height: 181px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .navigation {
+    margin-right: 0;
+    padding-top: 20px;
+  }
+  /* Hero Section  */
+  .heroSection header h1 {
+    font-size: 36px;
+    line-height: 37px;
+  }
+  .heroSection header p {
+    font-size: 20px;
+    line-height: 138%;
+  }
+
+  .heroSection header {
+    top: 30%;
+  }
+  .cta {
+    margin-top: 30px;
+  }
+  #email {
+    width: 230px;
+    height: 55px;
+    font-size: 16px;
+  }
+  #btn {
+    width: 173px;
+    height: 55px;
+    font-size: 16px;
+  }
+}
+
+/* Between 600px and 500px */
+@media screen and (max-width: 600px) {
+  .heroSection header {
+    position: static;
+  }
+  .heroSection header h1 {
+    position: absolute;
+    top: 38%;
+    right: 10%;
+  }
+  .heroSection header p {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .cta {
+    width: 90%;
+    margin: 50px auto;
+  }
+  #email {
+    width: 60%;
+  }
+  #btn {
+    width: 40%;
+  }
+}
+
+/* between 500px and 414px  */
+@media screen and (max-width: 500px) {
+  .heroSection header h1 {
+    top: 33%;
+    right: 5%;
+  }
+}
+
+/* Between 414px and  - Ipad mini screen */
+@media screen and (max-width: 414px){
+  
+}
