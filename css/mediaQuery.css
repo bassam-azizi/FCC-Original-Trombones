@@ -165,7 +165,6 @@
     top: 33%;
     right: 5%;
   }
-  /* Footer section */
 }
 
 /* Between 414px and  - Ipad mini screen */
@@ -186,5 +185,9 @@
     display: block;
     align-self: flex-start;
     margin: 42px 0 40px 24px;
+  }
+  /* trombone promo image */
+  .tromboneImage {
+    width: 100%;
   }
 }

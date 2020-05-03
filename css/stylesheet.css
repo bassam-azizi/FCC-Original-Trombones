@@ -14,7 +14,6 @@ html {
 }
 
 /* Elements style  */
-
 #fullPage {
   max-width: 1440px;
   margin: 0 auto;
@@ -182,9 +181,8 @@ header p {
 /* TROMBONE IMAGE */
 .tromboneImage {
   display: block;
-  width: 100%;
-  height: 428px;
-  margin: 0 auto;
+  max-width: 414px;
+  margin: 90px auto;
 }
 
 /* TROMBONE PLANS TITLE */
@@ -194,7 +192,7 @@ header p {
   color: #333333;
   letter-spacing: 0.085em;
   font-weight: normal;
-  margin: 30px 90px 79px;
+  margin: 0 30px 30px;
 }
 
 /* TROMBONE PLANS */
@@ -204,7 +202,6 @@ header p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  /* padding: 0 20px; */
 }
 .plan2 {
   margin-right: 69px;
