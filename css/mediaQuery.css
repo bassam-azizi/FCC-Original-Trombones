@@ -152,7 +152,10 @@
     width: 40%;
   }
   /* footer */
-  
+  .footer {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
 }
 
 /* between 500px and 414px  */
@@ -163,7 +166,6 @@
     right: 5%;
   }
   /* Footer section */
-
 }
 
 /* Between 414px and  - Ipad mini screen */
