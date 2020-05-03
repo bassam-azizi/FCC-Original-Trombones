@@ -86,7 +86,6 @@ header h1 {
   color: #333;
   font-size: 60px;
   font-weight: 700;
-  /* letter-spacing: -1.5px; */
   line-height: 70px;
 }
 header p {
@@ -97,7 +96,6 @@ header p {
   font-weight: normal;
   font-size: 30px;
   line-height: 138.19%;
-  /* letter-spacing: 0.0025em; */
 }
 .cta {
   margin-top: 58px;
@@ -114,7 +112,6 @@ header p {
 }
 #email::placeholder {
   font-size: 16px;
-  /* padding-left: 20px; */
 }
 #btn {
   font-size: 20px;
