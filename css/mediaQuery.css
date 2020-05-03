@@ -1,11 +1,16 @@
 /* Between 1400px and 1150px */
 @media only screen and (max-width: 1400px) {
+  /* Hero Section */
   #heroImg {
     width: 100%;
   }
   .heroSection header {
     top: 25%;
     right: 5%;
+  }
+  /* Features Section */
+  .features {
+    margin: 100px 10px;
   }
 }
 /* Between 1150px and 900px */
@@ -38,8 +43,12 @@
   }
 }
 
-/* Between 850px and 850px; */
+/* Between 900px and 850px; */
 @media screen and (max-width: 900px) {
+  #fullPage {
+    width: 100%;
+  }
+  /* Navigation  +  Hero Section  */
   .navigation {
     margin-right: 30px;
   }
@@ -49,6 +58,23 @@
   }
   .heroSection header p {
     font-size: 24px;
+  }
+  /* Features */
+  .features {
+    justify-content: center;
+    margin: 70px 1px;
+  }
+  .feature {
+    margin: 20px 40px;
+  }
+  /* Footer */
+  .footerNav li:nth-of-type(2) {
+    margin: 0 40px;
+  }
+  .footer p {
+    width: 170px;
+    height: auto;
+    text-align: center;
   }
 }
 
@@ -125,14 +151,19 @@
   #btn {
     width: 40%;
   }
+  /* footer */
+  
 }
 
 /* between 500px and 414px  */
 @media screen and (max-width: 500px) {
+  /* Hero section */
   .heroSection header h1 {
     top: 33%;
     right: 5%;
   }
+  /* Footer section */
+
 }
 
 /* Between 414px and  - Ipad mini screen */
