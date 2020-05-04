@@ -27,7 +27,7 @@
   .heroSection header p {
     font-size: 26px;
   }
-  .cta {
+  #form {
     margin-top: 40px;
   }
   #email {
@@ -112,7 +112,7 @@
   .heroSection header {
     top: 30%;
   }
-  .cta {
+  #form {
     margin-top: 30px;
   }
   #email {
@@ -141,7 +141,7 @@
     text-align: center;
     margin-top: 40px;
   }
-  .cta {
+  #form {
     width: 90%;
     margin: 50px auto;
   }
