@@ -34,7 +34,7 @@ html {
 /* #nav-bar {
   position: fixed;
 } */
-.navigation {
+#nav-bar {
   margin-right: 170px;
 }
 .navigation li {
