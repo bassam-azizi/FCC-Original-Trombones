@@ -31,6 +31,9 @@ nav {
   width: 299px;
   height: 34px;
 }
+/* #nav-bar {
+  position: fixed;
+} */
 .navigation {
   margin-right: 170px;
 }
@@ -45,13 +48,13 @@ nav {
   transform: scaleY(0.96);
 }
 
-.navAnchor {
+.nav-link {
   outline: none;
   text-decoration: none;
   color: #000;
   padding: 0 1px;
 }
-.navAnchor::after {
+.nav-link::after {
   content: "";
   width: 0px;
   height: 1.7px;
@@ -62,7 +65,7 @@ nav {
 
   transition: linear 0.2s;
 }
-.navAnchor:hover:after {
+.nav-link:hover:after {
   width: 100%;
   transform: translateY(100%);
 }
@@ -96,7 +99,7 @@ header p {
   font-size: 30px;
   line-height: 138.19%;
 }
-.cta {
+#form {
   margin-top: 58px;
 }
 #email {
@@ -112,7 +115,7 @@ header p {
 #email::placeholder {
   font-size: 16px;
 }
-#btn {
+#submit {
   font-size: 20px;
   width: 270px;
   height: 66px;
@@ -121,7 +124,7 @@ header p {
   margin-left: -5px;
   cursor: pointer;
 }
-#btn:hover {
+#submit:hover {
   background-color: #2f80edcd;
   color: gold;
 }
