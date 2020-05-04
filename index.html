@@ -15,23 +15,30 @@
   <body>
     <div id="fullPage">
       <!-- Navigation menu -->
-      <nav>
-        <img src="assets/trombones.png" class="logo" alt="logo" />
-        <ul class="navigation">
-          <li>
-            <a class="navAnchor" href="#">Features</a>
-          </li>
-          <li>
-            <a class="navAnchor" href="#">How it Works</a>
-          </li>
-          <li>
-            <a class="navAnchor" href="#">Pricing</a>
-          </li>
-        </ul>
-        <a href="#" id="hamburgerMenu">
-          <img src="assets/Hamburger icon.svg" alt="Menu" />
-        </a>
-      </nav>
+      <header id="header">
+        <img
+          src="assets/trombones.png"
+          id="header-img"
+          class="logo"
+          alt="logo"
+        />
+        <nav id="nav-bar">
+          <ul class="navigation">
+            <li>
+              <a class="nav-link" href="#trombone-img">Features</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#trombone-img">How it Works</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#trombone-img">Pricing</a>
+            </li>
+          </ul>
+          <a href="#" id="hamburgerMenu">
+            <img src="assets/Hamburger icon.svg" alt="Menu" />
+          </a>
+        </nav>
+      </header>
       <!-- Hero section menu ___ which take till the upfold finish -->
       <div>
         <div class="heroSection">
@@ -46,15 +53,22 @@
               departures from our original modular<br />
               designs. and they're every bit as good
             </p>
-            <div class="cta">
+            <!-- <div class="cta"> -->
+            <form id="form">
               <input
                 type="email"
                 name="email"
                 placeholder="Enter your Email Here..."
                 id="email"
               />
-              <input type="button" value="Get Started" id="btn" />
-            </div>
+              <input
+                type="button"
+                value="Get Started"
+                id="submit"
+                formaction="https://www.freecodecamp.com/email-submit"
+              />
+            </form>
+            <!-- </div> -->
           </header>
         </div>
       </div>
@@ -114,6 +128,7 @@
 
       <!--  THE TROMBONE IMAGE -->
       <img
+        id="trombone-img"
         class="tromboneImage"
         src="assets/trombone.svg"
         alt="trombone image"
