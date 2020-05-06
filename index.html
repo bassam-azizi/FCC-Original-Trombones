@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
     <link
@@ -42,7 +42,17 @@
       <!-- Hero section menu ___ which take till the upfold finish -->
       <div>
         <div class="heroSection">
-          <img src="assets/Hero cover.jpg" alt="hero image" id="heroImg" />
+          <picture>
+            <source
+              media="(max-width:414px)"
+              srcset="assets/Hero-cover-414w.jpg"
+            />
+            <source
+              media="(max-width:768px)"
+              srcset="assets/Hero-cover-768w.jpg"
+            />
+            <img src="assets/Hero-cover.jpg" alt="hero image" id="heroImg" />
+          </picture>
           <header>
             <h1>
               New Concept & <br />
@@ -136,7 +146,7 @@
       <img
         id="trombone-img"
         class="tromboneImage"
-        src="assets/trombone.svg"
+        src="assets/trombone.jpg"
         alt="trombone image"
       />
 
