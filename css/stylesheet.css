@@ -204,11 +204,7 @@ header p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.plan2 {
-  margin-right: 69px;
-  margin-left: 69px;
+  justify-content: center;
 }
 .pDeck {
   text-align: center;
@@ -217,14 +213,11 @@ header p {
   border: 1px solid #2f80ed70;
   border-radius: 10px;
   background: #e2e2e225;
-  margin: 30px 0;
+  margin: 30px;
 }
-.pDeck:hover {
-  width: 338px;
-  height: 558px;
-  background: #fff;
-  border-width: 2px;
-}
+
+/* .pDeck:hover ~ .pDeck:not(:hover) {
+} */
 .pDeck h4 {
   font-size: 22px;
   font-weight: 500;
