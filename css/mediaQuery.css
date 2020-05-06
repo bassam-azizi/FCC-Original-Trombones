@@ -1,5 +1,5 @@
 /* Between 1400px and 1150px */
-@media only screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
   /* Hero Section */
   #heroImg {
     width: 100%;
@@ -15,7 +15,11 @@
 }
 
 /* btween 1200px and 1090px */
-
+@media screen and (max-width: 1285px) {
+  .pDecks {
+    width: 100%;
+  }
+}
 /* Between 1150px and 900px */
 @media screen and (max-width: 1150px) {
   #nav-bar {
