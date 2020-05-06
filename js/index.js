@@ -18,11 +18,26 @@ function hiddenImg() {
 }
 
 
-
+// Video auto play when the image is clicked
 function playVideo() {
     videoSection.appendChild(videoWrapper);
     videoWrapper.appendChild(videoFrame);
     hiddenImg();
 }
 
-// video_img.addEventListener("click", playVideo);
+// event listener on hover of plans
+let plan = document.querySelectorAll('.pDeck')
+let planArray = Array.from(plan);
+
+function activeSelection(x) {
+    planArray.forEach(deck => {
+        deck.style.cssText = "background: #e2e2e222;fitler:grayscale(1);-webkit-filter:grayscale(1);opacity:0.5;width:320px;transform:scale(1)";
+    })
+    x.style.cssText = "width: 338px;background: #fff;box-shadow: 0 0 0 3px #2f80ed70;-webkit-filter: grayscale(0);filter: grayscale(0);opacity: initial;"
+}
+function disableSelection() {
+    planArray.forEach(deck => {
+        deck.style.cssText = "width: 335px;background: #fff;box-shadow: 0 0 0 0 ;-webkit-filter: grayscale(0);filter: grayscale(0);opacity: initial;"
+
+    })
+}
