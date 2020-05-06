@@ -1,29 +1,29 @@
-let video_img = document.querySelector('.videoImg');
-let videoSection = document.querySelector('.videoSection');
+// let video_img = document.querySelector('.videoImg');
+// let videoSection = document.querySelector('.videoSection');
 
-let videoFrame = document.createElement('iframe');
-videoFrame.src = "http://www.youtube.com/embed/y8Yv4pnO7qc?autoplay=1&rel=0";
-// videoFrame.src = "https://www.youtube.com/embed/y8Yv4pnO7qc";
-videoFrame.allow = "autoplay";
-if (window.chrome) {
-    videoFrame.src += "&mute=1";
-}
+// let videoFrame = document.createElement('iframe');
+// videoFrame.src = "http://www.youtube.com/embed/y8Yv4pnO7qc?autoplay=1&rel=0";
+// // videoFrame.src = "https://www.youtube.com/embed/y8Yv4pnO7qc";
+// videoFrame.allow = "autoplay";
+// if (window.chrome) {
+//     videoFrame.src += "&mute=1";
+// }
 
-let videoWrapper = document.createElement('div');
-videoWrapper.classList.add('videoWrapper');
-
-
-function hiddenImg() {
-    video_img.style = 'display: none '
-}
+// let videoWrapper = document.createElement('div');
+// videoWrapper.classList.add('videoWrapper');
 
 
-// Video auto play when the image is clicked
-function playVideo() {
-    videoSection.appendChild(videoWrapper);
-    videoWrapper.appendChild(videoFrame);
-    hiddenImg();
-}
+// function hiddenImg() {
+//     video_img.style = 'display: none '
+// }
+
+
+// // Video auto play when the image is clicked
+// function playVideo() {
+//     videoSection.appendChild(videoWrapper);
+//     videoWrapper.appendChild(videoFrame);
+//     hiddenImg();
+// }
 
 // event listener on hover of plans
 let plan = document.querySelectorAll('.pDeck')
