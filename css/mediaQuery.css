@@ -4,34 +4,25 @@
   #heroImg {
     width: 100%;
   }
-  .heroSection header {
-    top: 25%;
-    right: 5%;
-  }
+  /* .heroSection header {
+    /* top: 25%; 
+    right: 5%; 
+  }*/
   /* Features Section */
   .features {
     margin: 100px 10px;
   }
 }
 
-/* btween 1200px and 1090px */
-/* @media screen and (max-width: 1285px) {
-  .pDecks {
-    width: 100%;
-  }
-} */
 /* Between 1150px and 900px */
 @media screen and (max-width: 1150px) {
   #nav-bar {
     margin-right: 100px;
   }
-  .heroSection header {
-    top: 20%;
-  }
-  .heroSection header h1 {
+  .hero-header h1 {
     font-size: 50px;
   }
-  .heroSection header p {
+  .hero-header p {
     font-size: 26px;
   }
   #form {
@@ -59,11 +50,11 @@
   #nav-bar {
     margin-right: 30px;
   }
-  .heroSection header {
-    top: 18%;
-    right: 3%;
+  .hero-header {
+    /* top: 18%; */
+    right: 5%;
   }
-  .heroSection header p {
+  .hero-header p {
     font-size: 24px;
   }
   /* Features */
@@ -117,9 +108,6 @@
     line-height: 138%;
   }
 
-  .heroSection header {
-    top: 30%;
-  }
   #form {
     margin-top: 30px;
   }
@@ -137,15 +125,15 @@
 
 /* Between 600px and 500px */
 @media screen and (max-width: 600px) {
-  .heroSection header {
+  .hero-container {
     position: static;
   }
-  .heroSection header h1 {
+  .hero-header h1 {
     position: absolute;
     top: 38%;
     right: 10%;
   }
-  .heroSection header p {
+  .hero-header p {
     text-align: center;
     margin-top: 40px;
   }
@@ -169,7 +157,7 @@
 /* between 500px and 414px  */
 @media screen and (max-width: 500px) {
   /* Hero section */
-  .heroSection header h1 {
+  .hero-header h1 {
     top: 33%;
     right: 5%;
   }
@@ -177,13 +165,13 @@
 
 /* Between 414px and  - Ipad mini screen */
 @media screen and (max-width: 414px) {
-  .heroSection header h1 {
+  .hero-header h1 {
     font-size: 32px;
     top: 38%;
     left: 7%;
     width: 130px;
   }
-  .heroSection header p {
+  .hero-header p {
     line-height: 123%;
     font-weight: 500;
   }
