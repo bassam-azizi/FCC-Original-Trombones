@@ -15,11 +15,11 @@
 }
 
 /* btween 1200px and 1090px */
-@media screen and (max-width: 1285px) {
+/* @media screen and (max-width: 1285px) {
   .pDecks {
     width: 100%;
   }
-}
+} */
 /* Between 1150px and 900px */
 @media screen and (max-width: 1150px) {
   #nav-bar {
@@ -179,8 +179,9 @@
 @media screen and (max-width: 414px) {
   .heroSection header h1 {
     font-size: 32px;
-    right: 0;
-    left: 5%;
+    top: 38%;
+    left: 7%;
+    width: 130px;
   }
   .heroSection header p {
     line-height: 123%;
