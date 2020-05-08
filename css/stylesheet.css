@@ -69,6 +69,9 @@ html {
   width: 100%;
   transform: translateY(100%);
 }
+.nav-link:hover {
+  color: #2f80ed;
+}
 #hamburgerMenu {
   display: none;
   width: 44px;
@@ -76,22 +79,30 @@ html {
 }
 
 /* HERO SECTION */
+.heroSection {
+  position: relative;
+}
 #heroImg {
   max-width: 1440px;
   width: 100%;
 }
-.heroSection header {
+.header-container {
   position: absolute;
-  top: 262px;
-  right: 170px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
-header h1 {
+.hero-header {
+  padding: 4rem 3rem 0 0;
+}
+.hero-header h1 {
   color: #333;
   font-size: 60px;
   font-weight: 700;
   line-height: 70px;
 }
-header p {
+.hero-header p {
   margin-top: 10px;
   color: #4f4f4f;
   font-family: Roboto;
@@ -126,8 +137,15 @@ header p {
   cursor: pointer;
 }
 #submit:hover {
-  background-color: #2f80edcd;
-  color: gold;
+  /* background-color: #2f80edcd; */
+  /* background-color: rgb(231, 217, 140); */
+  background-color: transparent;
+  color: #2f80ed;
+  font-size: 1.1em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  /* border-radius: 0 0 90% 0; */
+  /* color: gold; */
 }
 
 /* FEATURES SECTION */
@@ -215,6 +233,7 @@ header p {
   border-radius: 10px;
   background: #e2e2e225;
   margin: 30px;
+  cursor: pointer;
 }
 
 /* .pDeck:hover ~ .pDeck:not(:hover) {
