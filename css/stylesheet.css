@@ -78,6 +78,7 @@ html {
 /* HERO SECTION */
 #heroImg {
   max-width: 1440px;
+  width: 100%;
 }
 .heroSection header {
   position: absolute;
