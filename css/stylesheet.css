@@ -304,6 +304,7 @@ header p {
   font-weight: Medium;
   letter-spacing: 0.085em;
   font-size: 18px;
+  cursor: pointer;
 }
 .footer p {
   color: #333333;
