@@ -25,9 +25,7 @@
 //     hiddenImg();
 // }
 
-function imgW(x) {
-    console.log(x.currentSrc);
-}
+
 // event listener on hover of plans
 let plan = document.querySelectorAll('.pDeck')
 let planArray = Array.from(plan);
