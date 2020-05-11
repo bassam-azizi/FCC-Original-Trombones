@@ -42,3 +42,21 @@ function disableSelection() {
 
     })
 }
+
+// ********
+// function replaceHeroOrder() {
+//     console.log('here im ');
+//     let herocontainer = document.querySelector('.hero-header');
+//     let headercontainer = document.querySelector('.header-container');
+//     let newOne = document.querySelector('.newOne');
+
+//     if (window.screen.width <= 600) {
+//         newOne.parentNode.replaceChild(herocontainer, newOne);
+//         console.log(newOne);
+//     }
+//     else {
+//         headercontainerss.replaceChild(newOne, headercontainer);
+//     }
+// }
+
+// window.onresize = replaceHeroOrder;
