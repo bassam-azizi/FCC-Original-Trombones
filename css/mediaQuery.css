@@ -167,15 +167,6 @@
   }
 }
 
-/* between 500px and 414px  */
-/* @media screen and (max-width: 500px) {
-  /* Hero section 
-  .hero-header h1 {
-    top: 33%;
-    right: 5%;
-  }
-} */
-
 /* Between 414px and  - Ipad mini screen */
 @media screen and (max-width: 414px) {
   .hero-header h1 {
