@@ -17,8 +17,8 @@
       <!-- Navigation menu -->
       <header id="header">
         <img
-          src="assets/trombones.png"
           id="header-img"
+          src="assets/trombones.png"
           class="logo"
           alt="logo"
         />
@@ -42,16 +42,27 @@
       <!-- Hero section menu ___ which take till the upfold finish -->
       <div>
         <div class="heroSection">
-          <div class="header-container">
+          <picture>
+            <source
+              media="(max-width:414px)"
+              srcset="assets/Hero-cover-414w.jpg"
+            />
+            <source
+              media="(max-width:768px)"
+              srcset="assets/Hero-cover-768w.jpg"
+            />
+            <img src="assets/Hero-cover.jpg" alt="hero image" id="heroImg" />
+          </picture>
+          <div class="hero-header-container">
             <header class="hero-header">
               <h1>
                 New Concept & <br />
                 Classic Design
               </h1>
               <p>
-                Our Newest trombone models are complete <br />
-                departures from our original modular<br />
-                designs. and they're every bit as good
+                Our Newest trombone models are complete departures from our
+                original modular designs.<br />
+                They're every bit as good
               </p>
               <!-- <div class="cta"> -->
               <form id="form">
@@ -70,17 +81,7 @@
               </form>
             </header>
           </div>
-          <picture>
-            <source
-              media="(max-width:414px)"
-              srcset="assets/Hero-cover-414w.jpg"
-            />
-            <source
-              media="(max-width:768px)"
-              srcset="assets/Hero-cover-768w.jpg"
-            />
-            <img src="assets/Hero-cover.jpg" alt="hero image" id="heroImg" />
-          </picture>
+          <div class="newOne"></div>
         </div>
       </div>
 
