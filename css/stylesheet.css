@@ -62,7 +62,6 @@ html {
   position: absolute;
   bottom: -40%;
   left: 0%;
-
   transition: linear 0.2s;
 }
 .nav-link:hover:after {
@@ -86,12 +85,14 @@ html {
   max-width: 1440px;
   width: 100%;
 }
-.header-container {
+.hero-header-container {
   position: absolute;
+  height: 10px;
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  top: 0;
 }
 .hero-header {
   padding: 4rem 3rem 0 0;
@@ -110,6 +111,7 @@ html {
   font-weight: normal;
   font-size: 30px;
   line-height: 138.19%;
+  width: 693px;
 }
 #form {
   margin-top: 58px;
@@ -139,11 +141,12 @@ html {
 #submit:hover {
   /* background-color: #2f80edcd; */
   /* background-color: rgb(231, 217, 140); */
-  background-color: transparent;
+  background-color: unset;
   color: #2f80ed;
   font-size: 1.1em;
   font-weight: 400;
   letter-spacing: 0.1em;
+  transform: translateX(4);
   /* border-radius: 0 0 90% 0; */
   /* color: gold; */
 }
