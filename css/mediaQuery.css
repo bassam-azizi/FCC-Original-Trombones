@@ -103,6 +103,9 @@
     padding-top: 20px;
   }
   /* Hero Section  */
+  .heroSection {
+    margin-top: 180px;
+  }
   .hero-header {
     padding: 3rem 2rem 0 0;
   }
