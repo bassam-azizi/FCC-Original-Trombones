@@ -7,10 +7,17 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
     <link
     rel="stylesheet"
-    media="screen and (max-width:1400px)"
     href="css/mediaQuery.css"
     />
     <title>Trombone</title>
+<!-- We add Internal style to pass the freecodecamp test, due to a cross-origin security that make the project fail the test in it's local version -->
+    <style type="text/css">
+      @media (max-width: 1400px) {
+        #header {
+          display: flex;
+        }
+      }
+    </style>
   </head>
   <body>
     <div id="fullPage">
