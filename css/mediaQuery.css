@@ -183,10 +183,43 @@
   #nav-bar {
     display: none;
   }
-  #hamburgerMenu {
+  #dropdown {
     display: block;
+    height: auto;
     align-self: flex-start;
-    margin: 42px 0 40px 24px;
+  }
+  .dropdown-icon {
+    position: relative;
+    left: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 8px 4px;
+  }
+  .dropdown-links ul {
+    margin-top: 2px;
+    position: absolute;
+    left: 18px;
+    z-index: 5;
+    border-radius: 5px;
+    background-color: #4f4f4ff9;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.6s ease;
+  }
+  .dropdown-links ul li {
+    /* text-align: center; */
+    color: white;
+    padding: 2rem 2.5rem;
+    list-style: none;
+    font-weight: 400;
+  }
+  .dropdown-icon:focus + .dropdown-links ul {
+    opacity: 1;
+    cursor: pointer;
+    transform: translateY(0px);
+  }
+  .dropdown-links ul li:hover {
+    background-color: #f4f4f461;
   }
   /* trombone promo image */
   .tromboneImage {
