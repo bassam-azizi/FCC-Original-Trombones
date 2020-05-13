@@ -26,6 +26,13 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 77;
+  background-color: white;
+  width: 100%;
 }
 .logo {
   width: 299px;
@@ -81,6 +88,7 @@ html {
 /* HERO SECTION */
 .heroSection {
   position: relative;
+  margin-top: 100px;
 }
 #heroImg {
   max-width: 1440px;
