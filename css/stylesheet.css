@@ -21,7 +21,7 @@ html {
 
 /* NAVIGATION  */
 #header {
-  /* display: flex; */
+  display: flex;
   height: 100px;
   flex-direction: row;
   justify-content: space-between;
